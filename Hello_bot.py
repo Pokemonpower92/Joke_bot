@@ -1,11 +1,11 @@
-# Chatbot test
+# Jokebot v1
 # Work with Python 3.6
 import discord
 from jokes import*
 
-TOKEN = 'NjA3NDI4ODEzMDU1NTkwNDA5.XUZopg.pH5knJEBAYICv6Q4KvEKEyru3MQ'
+TOKEN = 'Your token here'
 client = discord.Client()
-channel = client.get_channel(607442063499198468)
+channel = client.get_channel(#Your channel here)
 
 @client.event
 async def on_message(message):
